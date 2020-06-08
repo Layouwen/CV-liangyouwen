@@ -6,12 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>我的简历 - 梁又文</title>
     <link rel="stylesheet" href="style.css">
+    <style media="print">
+        body {
+            margin: 0;
+        }
+
+        .page2 {
+            page-break-before: always;
+            margin-top: 30px;
+        }
+    </style>
     <style>
+        body {}
+
+        p {
+            margin: .3em 0;
+        }
+
+        h1 {
+            font-size: 25px;
+            margin-top: 0;
+        }
+
+        h4,
+        h5,
+        h6 {
+            font-weight: normal;
+        }
+
+        ol,
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        strong {
+            font-weight: normal;
+            color: #f60;
+        }
+
+        a {
+            color: #999;
+            text-decoration: none;
+            border-bottom: 1px solid;
+        }
+
+        p,
+        li {
+            color: #666;
+        }
+
+        strong {
+            font-weight: normal;
+        }
+
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin: 0;
+        }
+
+        .bio {
+            position: relative;
+        }
+
         .bio img {
-            display: block;
-            width: 100px;
-            height: 100px;
-            background: blue;
+            position: absolute;
+            top: 0;
+            right: 0;
         }
     </style>
 </head>
@@ -20,7 +84,7 @@
     <article>
         <section class="bio">
             <h1>梁又文</h1>
-            <img src="" alt="" width="100" height="100">
+            <img src="images/picture.png" alt="" width="100" height="100">
             <p>
                 男 | 20岁 | 前端开发工程师 | 广州
             </p>
@@ -116,7 +180,7 @@
 
         <section class="skills">
             <h2>技能</h2>
-            <div id="main" style="width: 600px;height:400px;"></div>
+
             <div class="wrapper">
                 <div id="skills"></div>
                 <ul>
