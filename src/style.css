@@ -16,8 +16,6 @@ article {
     padding: 1em;
 }
 
-.projects {}
-
 .projects p {
     color: #666;
 }
@@ -45,10 +43,7 @@ article {
     display: inline-block;
 }
 
-skills {}
-
 #skills {
-
     width: 500px;
     height: 270px;
 }
@@ -69,8 +64,6 @@ skills {}
     margin-right: 24px;
 }
 
-.skills>.wrapper>#skills {}
-
 .skills>.wrapper>ul {
     color: #666;
 }
@@ -84,17 +77,11 @@ skills {}
     margin-bottom: 8px;
 }
 
-.openSource {}
-
-.openSource>h2 {}
-
 .openSource header img {
     position: absolute;
     top: 0;
     right: 0;
 }
-
-.openSource>ul {}
 
 .openSource>ul>li {
     margin-bottom: 24px;
@@ -105,14 +92,6 @@ skills {}
     display: flex;
     justify-content: space-between;
 }
-
-.openSource h3 {}
-
-.jobs {}
-
-.jobs>h2 {}
-
-.jobs>ol {}
 
 .jobs>ol>li {
     margin: 12px 0;
