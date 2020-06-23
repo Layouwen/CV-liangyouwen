@@ -25,6 +25,10 @@ article {
     flex: 1;
 }
 
+.education>p span:last-child {
+    padding-right: 2em;
+}
+
 @media (min-width: 500px) {
     .education>p span:first-child {
         flex: 1;
@@ -56,6 +60,7 @@ article {
 
 .projects>ol>li>header {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .projects>ol>li h3 {
@@ -189,5 +194,20 @@ article {
     .jobs header>h4,
     .jobs header>span {
         margin: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .projects header {
+        flex-direction: column;
+    }
+
+    .projects>ol>li>header>span {
+        margin: .5em 0;
+        text-align: left;
+    }
+
+    .education>p span:last-child {
+        padding-right: 1em;
     }
 }
