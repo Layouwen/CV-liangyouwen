@@ -14,15 +14,15 @@ var option = {
             }
         },
         indicator: [{
-                name: '静态页面',
+                name: '快速学习能力',
                 max: 100
             },
             {
-                name: 'React 全家桶',
+                name: 'React',
                 max: 100
             },
             {
-                name: 'Vue 全家桶',
+                name: 'Vue',
                 max: 100
             },
             {
@@ -34,17 +34,15 @@ var option = {
                 max: 100
             },
             {
-                name: '快速学习能力',
+                name: '静态页面',
                 max: 100
             }
         ]
     },
     series: [{
-        name: '预算 vs 开销（Budget vs spending）',
         type: 'radar',
-        // areaStyle: {normal: {}},
         data: [{
-            value: [100, 75, 85, 70, 80, 90],
+            value: [90, 75, 85, 70, 80, 100],
         }, ]
     }]
 };
