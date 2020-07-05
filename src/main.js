@@ -18,7 +18,7 @@ var option = {
                 max: 100
             },
             {
-                name: 'React',
+                name: 'Node',
                 max: 100
             },
             {
