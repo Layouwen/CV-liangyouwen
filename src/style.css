@@ -44,8 +44,8 @@ article {
 }
 
 .projects strong {
-    color: #f60;
-    /* color: blue; */
+    /* color: #f60; */
+    color: red;
 }
 
 .projects>ol {
@@ -107,7 +107,7 @@ article {
 }
 
 .skills>.wrapper strong {
-    color: blue;
+    color: red;
 }
 
 .skills>.wrapper>ul>li {
