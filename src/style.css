@@ -131,6 +131,10 @@ article {
     justify-content: space-between;
 }
 
+.openSource strong {
+    color: red;
+}
+
 .jobs>ol>li {
     margin: 12px 0;
 }
