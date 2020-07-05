@@ -5,171 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <title>CV</title>
-    <style>
-        body {
-            margin: 0;
-            font: 14px/1.5 Arial;
-            color: #666;
-            background: #efefef;
-        }
-
-        .layout {
-            max-width: 900px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        #page {
-            display: flex;
-            flex-wrap: wrap;
-            background: #fff;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-
-        header {
-
-            background: #3c3c3c;
-            width: 100%;
-            text-align: center;
-            padding: 60px 0 10px 0;
-            color: #fff;
-        }
-
-        header>h1 {
-            font-size: 30px;
-            margin-bottom: 0;
-        }
-
-        header>p {
-            font-size: 14px;
-            color: #aaa;
-            margin: 0;
-        }
-
-        aside {
-            width: 240px;
-            border-right: 1px solid #ccc;
-            position: relative;
-            padding-top: 100px;
-        }
-
-        aside .avatar {
-            text-align: center;
-            position: absolute;
-            top: -80px;
-            width: 100%;
-        }
-
-        aside .avatar img {
-            width: 160px;
-            height: 160px;
-            border-radius: 50%;
-            border: 1px solid #ccc;
-            background: #ccc;
-        }
-
-
-        section {
-            border-bottom: 1px solid #ccc;
-            margin: 30px 20px 0 20px;
-            padding-bottom: 20px;
-        }
-
-        section h2 {
-            color: #5c99ca;
-            font-size: 16px;
-        }
-
-        section h3 {
-            font-size: 16px;
-            color: #333;
-        }
-
-        section a {
-            color: #333;
-        }
-
-
-        .personal .item span:first-child {
-            display: inline-block;
-            width: 80px;
-        }
-
-        .personal .item span:last-child::before {
-            content: ':';
-            margin-right: 10px;
-        }
-
-        .skills .item {
-            display: flex;
-            align-items: center;
-        }
-
-        .skills .keyword {
-            width: 80px;
-        }
-
-        .skills .rule {
-            flex: 1;
-            height: 4px;
-            background: #ccc;
-        }
-
-        .skills .rule i {
-            display: block;
-            width: 10%;
-            height: 4px;
-            background: #000;
-        }
-
-        .contact .item {
-            display: flex;
-            align-items: center;
-        }
-
-        .contact svg {
-            width: 25px;
-            height: 25px;
-        }
-
-        .contact .item span {
-            margin-left: 10px;
-        }
-
-        main {
-            flex: 1;
-            min-height: calc(100vh - 162px);
-        }
-
-        @media (max-width: 768px) {
-            header {
-                padding-top: 20px;
-                padding-bottom: 90px;
-            }
-
-            aside {
-                width: 100%;
-                padding-top: 0px;
-            }
-
-            aside .avatar img {
-                width: 100px;
-                height: 100px;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="mode.css">
 </head>
 
 <body>
     <div class="layout" id="page">
         <header>
-            <h1>饥人谷</h1>
+            <h1>梁又文</h1>
             <p>应聘前端工程师</p>
         </header>
         <aside>
             <div class="avatar">
-                <img src="https://gw.alicdn.com/tps/TB1W_X6OXXXXXcZXVXXXXXXXXXX-400-400.png" alt="小谷">
+                <img src="./images/picture.png" alt="梁又文">
             </div>
 
             <section>
@@ -180,27 +27,22 @@
                         <span>本科</span>
                     </div>
                     <div class="item">
-                        <span>工作经验</span>
-                        <span>1年</span>
+                        <span>年龄</span>
+                        <span>20岁</span>
                     </div>
                     <div class="item">
-                        <span>意向薪资</span>
-                        <span>8~10k</span>
+                        <span>性质</span>
+                        <span>应届毕业生</span>
                     </div>
                 </div>
             </section>
-
 
             <section>
                 <h2>专业技能</h2>
                 <div class="detail skills">
                     <div class="item">
-                        <span class="keyword">HTML5</span>
-                        <span class="rule"><i style="width: 50%"></i></span>
-                    </div>
-                    <div class="item">
-                        <span class="keyword">CSS3</span>
-                        <span class="rule"><i style="width: 80%"></i></span>
+                        <span class="keyword">静态页面</span>
+                        <span class="rule"><i style="width: 100%"></i></span>
                     </div>
                     <div class="item">
                         <span class="keyword">Node.js</span>
@@ -208,7 +50,15 @@
                     </div>
                     <div class="item">
                         <span class="keyword">Vue</span>
-                        <span class="rule"><i style="width: 60%"></i></span>
+                        <span class="rule"><i style="width: 70%"></i></span>
+                    </div>
+                    <div class="item">
+                        <span class="keyword">React</span>
+                        <span class="rule"><i style="width: 50%"></i></span>
+                    </div>
+                    <div class="item">
+                        <span class="keyword">React</span>
+                        <span class="rule"><i style="width: 50%"></i></span>
                     </div>
                 </div>
             </section>
@@ -219,22 +69,22 @@
                     <div class="item">
                         <svg>
                             <use xlink:href="#icon-phone" /></svg>
-                        <span>1300000000</span>
+                        <span>15011756892</span>
                     </div>
                     <div class="item">
                         <svg>
                             <use xlink:href="#icon-email" /></svg>
-                        <span>hunger@jirengu.com</span>
+                        <span>layouwen@gmail.com</span>
                     </div>
                     <div class="item">
                         <svg>
                             <use xlink:href="#icon-wechat" /></svg>
-                        <span>xiedaimala01</span>
+                        <span>gdgzyw</span>
                     </div>
                     <div class="item">
                         <svg>
                             <use xlink:href="#icon-city" /></svg>
-                        <span>杭州</span>
+                        <span>广州</span>
                     </div>
 
                 </div>
@@ -250,8 +100,24 @@
             <section>
                 <h2>教育经历</h2>
                 <div class="item">
-                    <h3>杭州电子科技大学</h3>
-                    <p>985、211，专业排名前20%</p>
+                    <p>
+                        <span>2020.04~至今</span>
+                        <span>华南理工大学</span>
+                        <span>计算机科学与技术</span>
+                        <span>本科</span>
+                    </p>
+                    <p>
+                        <span>2018.09~至今</span>
+                        <span>广播电视大学</span>
+                        <span>计算机网络技术</span>
+                        <span>大专</span>
+                    </p>
+                    <p>
+                        <span>2016.09~至今</span>
+                        <span>广州市机电技师学院</span>
+                        <span>计算机网络应用</span>
+                        <span>高技</span>
+                    </p>
                 </div>
             </section>
             <section>
