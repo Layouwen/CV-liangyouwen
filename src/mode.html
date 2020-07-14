@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width">
     <title>CV</title>
     <link rel="stylesheet" href="mode.css">
+    <style media="print">
+        body {
+            margin: 0;
+        }
+
+        .page2 {
+            page-break-before: always;
+            margin-top: -120px;
+        }
+    </style>
 </head>
 
 <body>
@@ -32,7 +42,7 @@
                     </div>
                     <div class="item">
                         <span>性质</span>
-                        <span>应届生</span>
+                        <span>实习生</span>
                     </div>
                 </div>
             </section>
@@ -89,21 +99,20 @@
 
                 </div>
             </section>
-
+            <section>
+                <h2>相关链接</h2>
+                <div class="">
+                    <div class="item">
+                        github链接(已有 360 次提交)<br><a href="https://github.com/layouwen/">github.com/layouwen</a>
+                    </div>
+                    <div class="item">
+                        博客链接（目前有 34 篇文章）<br>
+                        <a href="https://www.yuque.com/waver-klavd/lyw">yuque.com/waver-klavd/lyw</a>
+                    </div>
+                </div>
+            </section>
         </aside>
         <main>
-            <section>
-                <h2>关于我</h2>
-                <ul>
-                    <li>熟练页面制作技巧，能将设计稿完美还原</li>
-                    <li>熟练掌握 Vue全家桶的使用，包括 VueCli、VueRouter、Vuex 等</li>
-                    <li>熟悉前后端分离技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</li>
-                    <li>熟悉 ES6，包括 let / Promise / await / 析构赋值</li>
-                    <li>了解 TypeScript 的使用，其中项目使用的就是 TS</li>
-                    <li>了解 Webpack 的配置和优化</li>
-                </ul>
-            </section>
-
             <section>
                 <h2>教育经历</h2>
                 <div class="item">
@@ -121,6 +130,88 @@
                     </p>
                 </div>
             </section>
+
+            <section>
+                <h2>技能概述</h2>
+                <ul>
+                    <li>熟练 HTML5 和 CSS3 进行符合Web标准的开发，有像素级还原设计稿的能力</li>
+                    <li>熟悉 PC与移动端开发与适配，了解小程序开发及流程</li>
+                    <li>熟悉 JavaScript / TypeScript，掌握 ES6 语法，持续关注ECMAScript标准</li>
+                    <li>熟悉 Vue 技术栈，包括 VueCli、VueRouter、Vuex等</li>
+                    <li>熟悉 AJAX 相关知识，了解 HTTP 协议</li>
+                    <li>熟悉 Webpack / Parcel 对项目进行打包，熟悉前端工程化流程</li>
+                    <li>掌握 jQuery、Less、Sass、Bootstrap 等技术</li>
+                    <li>掌握 ECharts 能使用其进行简单的数据可视化需求</li>
+                    <li>掌握 Git版本管理工具，活跃于GitHub社区</li>
+                    <li>了解 单元测试、持续集成以及 Travis 相关知识。能使用 Travis 进行持续测试。</li>
+                    <li>熟练 Markdown 语法，编写技术文档发布博客</li>
+                </ul>
+            </section>
+            
+            <section>
+                <h2>项目经历</h2>
+                <div class="item">
+                    <h3>易新账本</h3>
+                    <ul>
+                        <li>项目介绍：<br>
+                            易新小账本是一款简约风的记账应用。其特点为简洁，一键快速记账。<br>
+                            也是一款基于 <strong>Vue</strong> 、<strong>VueRouter</strong> 、<strong>Vuex</strong> <strong>、TypeScript</strong> 的单页面应用。
+                            从设计至完成，借鉴参考了多款 AppStore 中的类似应用。最终使其最简化。<br>
+                            本项目期间遇到很多问题，如 <strong>webpack配置</strong> ，TypeScript 等问题。最终都记录在博客中。
+                        </li>
+                        <li>项目源码：github.com/Layouwen/YiXin</li>
+                        <li>预览项目：<a href="https://layouwen.github.io/YiXin-website">点击查看</a></li>
+                    </ul>
+                </div>
+                <div class="item page">
+                    <h3>易新翻译(小程序)</h3>
+                    <ul>
+                        <li>项目介绍：<br>
+                            易新翻译是一款简单的翻译 <strong>小程序</strong> 。<br>
+                            使用 <strong>原生JS</strong> 制作的一个小程序应用。了解其标签语法，数据绑定及其布局方式。并调用 <strong>百度翻译API</strong> 实现翻译效果。 
+                        </li>
+                        <li>项目源码：github.com/Layouwen/Yixin-fanyi</li>
+                        <li>预览项目：<a href="javascript:;" onclick="alert('小程序搜索：易新翻译')">点击查看</a></li>
+                    </ul>
+                </div>
+                <div class="item page2">
+                    <h3>艺简导航页</h3>
+                    <ul>
+                        <li>项目介绍：<br>
+                            这是一个基于 <strong>jQuery</strong> 的PC端、移动端 <strong>适配</strong> 的导航页。<br>
+                            根据个人需求，借鉴各大导航网站设计的一个简单快捷的 导航 页面。并添加 <strong>键盘事件监听</strong> ， PC端 可以根据相应的 <strong>按键跳转</strong> 对于的网站。
+                            并使用 <strong>localstorage</strong> 存储数据，记录保存的记录。
+                        </li>
+                        <li>项目源码：github.com/Layouwen/YJ-nav</li>
+                        <li>预览项目：<a href="http://layouwen.gitee.io/yj-nav/src/index.html">点击查看</a></li>
+                    </ul>
+                </div><div class="item">
+                    <h3>皮卡皮卡</h3>
+                    <ul>
+                        <li>项目介绍：<br>
+                            这是一个使用 <strong>CSS</strong> ，根据模板图尽可能 <strong>还原</strong> 图片的效果。<br>
+                            并使用 <strong>原生JS</strong> 实现， <strong>播放</strong> 绘画过程的效果。<br>
+                            通过这个项目，使自己对CSS的使用更加熟练。
+                        </li>
+                        <li>项目源码：github.com/Layouwen/Pikachu</li>
+                        <li>预览项目：<a href="https://layouwen.gitee.io/pikachu/src/index.html">点击查看</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <h3>艺术时间</h3>
+                    <ul>
+                        <li>项目介绍：<br>
+                            这是一个使用 <strong>canvas</strong> 和 <strong>原生JS</strong> 实现的PC端、手机端 <strong>自适应</strong> 一个简易 <strong>画板</strong> 。<br>
+                            可用于日常草稿、涂鸦。有3种颜色的画笔，以及3种粗细选择。<br>
+                            添加可选择白底或黑底。以及窗口 <strong>变化检测</strong>。
+                        </li>
+                        <li>技术栈：canvas、JavaScript</li>
+                        <li>项目源码：github.com/Layouwen/Art-Time</li>
+                        <li>预览项目：<a href="https://layouwen.gitee.io/art-time/index.html">点击查看</a></li>
+                    </ul>
+                </div>
+            
+            </section>
             <section>
                 <h2>获奖情况</h2>
                 <div class="item">
@@ -135,91 +226,6 @@
                         <li>2016年度广州市机电技师学院 优秀共青团干部</li>
                     </ul>
                 </div>
-            </section>
-            <section>
-                <h2>项目经历</h2>
-                <div class="item">
-                    <h3>YiXin - 易新小账本</h3>
-                    <ul>
-                        <li>项目介绍：<br>
-                            易新小账本是一款简约风的记账应用。
-                            从设计至完成，借鉴参考了多款 AppStore 中的类似应用。最终使其最简化。
-                            本项目期间遇到很多问题，如 webpack配置 ，TypeScript 等问题。最终都记录在博客中。
-                        </li>
-                        <li>技术栈：Vue、VueRouter、Vuex、TypeScript、es6、flex</li>
-                        <li>项目源码：github.com/Layouwen/YiXin</li>
-                        <li>预览项目：<a href="https://layouwen.github.io/YiXin-website">点击查看</a></li>
-                    </ul>
-                </div>
-                <div class="item">
-                    <h3>YJ Nav - 艺简导航页</h3>
-                    <ul>
-                        <li>项目介绍：<br>
-                            这是一个基于 jQuery 的PC端、移动端 适配 的导航页。
-                            根据个人需求，借鉴各大导航网站设计的一个简单快捷的 导航 页面。
-                            并添加 键盘事件监听 ， PC端 可以根据相应的 按键跳转 对于的网站。
-                            并使用 localstorage 存储数据，记录保存的记录。
-                        </li>
-                        <li>技术栈：jQuery、flex、localstorage</li>
-                        <li>项目源码：github.com/Layouwen/YJ-nav</li>
-                        <li>预览项目：<a href="https://layouwen.github.io/YJ-nav/src/index.html">点击查看</a></li>
-                    </ul>
-                </div>
-                <div class="item">
-                    <h3>Pikachu - 皮卡皮卡</h3>
-                    <ul>
-                        <li>项目介绍：<br>
-                            这是一个使用 CSS ，根据模板图尽可能 还原 图片的效果。
-                            并使用 原生JS 实现， 播放 绘画过程的效果。
-                            通过这个项目，使自己对CSS的使用更加熟练。
-                        </li>
-                        <li>技术栈：JavaScript、CSS</li>
-                        <li>项目源码：github.com/Layouwen/Pikachu</li>
-                        <li>预览项目：<a href="https://layouwen.github.io/Pikachu/src/index.html">点击查看</a></li>
-                    </ul>
-                </div>
-                <div class="item">
-                    <h3>Art Time - 艺术时间</h3>
-                    <ul>
-                        <li>项目介绍：<br>
-                            这是一个使用 canvas 和 原生JS 实现的PC端、手机端 自适应 一个简易 画板 。
-                            可用于日常草稿、涂鸦。有3种颜色的画笔，以及3种粗细选择。
-                            添加可选择白底或黑底。以及窗口 变化检测。
-                        </li>
-                        <li>技术栈：canvas、JavaScript</li>
-                        <li>项目源码：github.com/Layouwen/Art-Time</li>
-                        <li>预览项目：<a href="https://layouwen.github.io/Art-Time/index.html">点击查看</a></li>
-                    </ul>
-                </div>
-                <div class="item">
-                    <h3>Auto Taiji - JS太极图</h3>
-                    <ul>
-                        <li>项目介绍：<br>
-                            这是一个综合使用 媒体查询 、原生JS 、animation 实现 自适配 的一个太极图绘画及播放效果。
-                        </li>
-                        <li>技术栈：JavaScript、媒体查询、animation</li>
-                        <li>项目源码：github.com/Layouwen/Auto-Taiji</li>
-                        <li>预览项目：<a href="https://layouwen.github.io/Auto-Taiji/index">点击查看</a></li>
-                    </ul>
-                </div>
-                <div class="item">
-                    <h3>heartbeat - 心跳</h3>
-                    <ul>
-                        <li>项目介绍：<br>
-                            这个是在学习 CSS 动画时完成的一个项目。
-                            当宽度大于1400px时显示两个效果。 animation心跳，右边显示 hover心跳。
-                            通过 媒体查询 ，手机只显示 animation 效果。
-                        </li>
-                        <li>技术栈：媒体查询、animation、hover</li>
-                        <li>项目源码：github.com/Layouwen/heartbeat</li>
-                        <li>预览项目：<a href="https://layouwen.github.io/heartbeat/index">点击查看</a></li>
-                    </ul>
-                </div>
-            </section>
-            <section>
-                <h2>个人评价</h2>
-                <p>本人拥有较强的自学能力，热爱编程。在校期间多次获得国家奖学金，以优秀的成绩完成学校课程。掌握HTML、CSS、JavaScript、jQuery、Vue、Webpack、AJAX、跨域等前端技术。了解使用Linux、Windows、MacOS系统。能独自搭建PHP个人网站。
-                </p>
             </section>
         </main>
     </div>

@@ -1,8 +1,18 @@
+ul {
+    padding: 1em;
+    margin-top: 0;
+    /* list-style: none; */
+}
+
+strong {
+    color: #333;
+}
+
 body {
     margin: 0;
     font: 14px/1.5 Arial;
     color: #666;
-    background: #efefef;
+    background: #fff;
 }
 
 .layout {
@@ -74,6 +84,7 @@ section h2 {
 }
 
 section h3 {
+    margin-bottom: 0;
     font-size: 16px;
     color: #333;
 }
@@ -141,7 +152,8 @@ main {
     min-height: calc(100vh - 162px);
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
+    
     header {
         padding-top: 20px;
         padding-bottom: 90px;
@@ -164,4 +176,4 @@ main {
     section>.item>p>span:last-child {
         padding-left: 20px;
     }
-}
+} */
