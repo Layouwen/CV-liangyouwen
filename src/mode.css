@@ -152,7 +152,7 @@ main {
     min-height: calc(100vh - 162px);
 }
 
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
     
     header {
         padding-top: 20px;
@@ -176,4 +176,4 @@ main {
     section>.item>p>span:last-child {
         padding-left: 20px;
     }
-} */
+}
